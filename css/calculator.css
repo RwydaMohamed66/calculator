@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(213, 134, 73);
+}
+
+.calc{
+    position:absolute;
+    padding: 10px;
+    height: 515px;
+    width: 340px;
+    border-radius: 30px;
+    background-color: rgba(228, 169, 96, 0.5) ;
+    margin-top: 125px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+.calc > button {
+    border: none;
+    background-color: rgb(217, 194, 111);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px;
+    font-size: 25px;
+}
+
+.cont{
+    position:absolute;
+    padding: 10px;
+    height: 650px;
+    width: 360px;
+    border-radius: 30px;
+    background-color: rgba(234, 199, 163, 0.5) ;
+    margin-top: 45px;
+    margin-right: 300px;
+    gap: 5px;
+ 
+}
+.output{
+    position: absolute;
+    background-color: rgba(237, 220, 167, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px;
+    font-size: 25px;
+    height:70px;
+    width: 320px;
+}
+.output p {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: end;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+
+.item21{
+    grid-column: 4 / 5;
+    grid-row: 5/8;
+    height: 160px;
+}
+.item22{
+    grid-column: 1 / 3;
+} 
+
+@keyframes slide-in {
+    from {
+        right: -500px; 
+    }
+    to {
+        right: 350px; 
+    }
+}
